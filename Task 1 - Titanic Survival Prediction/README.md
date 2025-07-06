@@ -1,33 +1,75 @@
-# Task 1 - Titanic Survival Prediction 🚢
+# 🚢 Titanic Survival Prediction – CodSoft Internship Task 1
 
-## 📌 Objective
-To build a machine learning model that predicts whether a passenger survived the Titanic disaster using classification algorithms.
+## 📌 Internship: CodSoft (Data Science)
+**Task 1: Titanic Survival Prediction**  
+Batch: **July B37**
 
-## 📂 Dataset
-- [Titanic Dataset - Kaggle](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+---
 
-## 🛠️ Tools Used
+## 🎯 Objective
+Build a machine learning model that predicts whether a passenger survived the Titanic disaster based on features like age, gender, ticket class, and fare.
+
+---
+
+## 📁 Dataset
+- Source: [Kaggle - Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+- Columns used:
+  - `Pclass`, `Sex`, `Age`, `SibSp`, `Parch`, `Fare`, `Embarked`
+
+---
+
+## ⚙️ Technologies Used
 - Python
 - Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- Jupyter Notebook / Colab
+- Seaborn, Matplotlib
+- Scikit-learn (Logistic Regression, Random Forest)
 
-## 📊 Steps Performed
-1. Data Loading
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Model Building (Logistic Regression, Random Forest)
-6. Model Evaluation (Accuracy, Confusion Matrix)
+---
 
-## 📌 Outcome
-The model predicts survival with a high accuracy using meaningful features like Age, Pclass, and Sex.
+## 📊 Workflow
 
-## 📽️ Demo Video
-_Link to LinkedIn video post (to be added later)_
+### 1. Data Cleaning
+- Handled missing values (Age, Embarked)
+- Encoded `Sex` and `Embarked` using LabelEncoder
 
-## 📎 GitHub Notebook
-_Link to Titanic_Prediction.ipynb (to be added later)_
+### 2. Exploratory Data Analysis (EDA)
+- Survival rate by gender, class
+- Age and fare distributions
+- Visualized using Seaborn
 
-Added README for Titanic Survival Prediction task
+### 3. Model Building
+- Logistic Regression: baseline model
+- Random Forest Classifier: best performer
+- Compared accuracy, precision, recall
+
+### 4. Prediction Interface
+- Took live user input through terminal
+- Predicted survival using Random Forest
+- Used DataFrame for proper feature naming
+
+---
+
+## ✅ Results
+
+| Model               | Accuracy |
+|---------------------|----------|
+| Logistic Regression | 81.01%   |
+| Random Forest       | **83.24%** ✅
+
+✔️ Final model: **Random Forest Classifier**
+
+---
+
+## 🔮 Live Input Demo
+
+Example prediction using user input:
+
+```text
+Pclass: 3
+Sex: female
+Age: 22
+SibSp: 0
+Parch: 0
+Fare: 7.25
+Embarked: S
+→ ✅ Survived
