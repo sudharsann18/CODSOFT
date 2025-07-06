@@ -73,3 +73,7 @@ Parch: 0
 Fare: 7.25
 Embarked: S
 → ✅ Survived
+
+## 📸 Screenshots
+
+### 🔍 Prediction Output
