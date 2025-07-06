@@ -77,3 +77,10 @@ Embarked: S
 ## 📸 Screenshots
 
 ### 🔍 Prediction Output
+![Predicted Output]https://github.com/sudharsann18/CODSOFT/blob/main/Task%201%20-%20Titanic%20Survival%20Prediction/Screenshot%202025-07-06%20134149.png?raw=true
+
+### 📊 Survival by Gender Chart
+![Survival Chart]https://github.com/sudharsann18/CODSOFT/blob/main/Task%201%20-%20Titanic%20Survival%20Prediction/Screenshot%202025-07-06%20134141.png?raw=true
+
+### 🧩 Confusion Matrix
+![Confusion Matrix]https://github.com/sudharsann18/CODSOFT/blob/main/Task%201%20-%20Titanic%20Survival%20Prediction/Screenshot%202025-07-06%20134056.png?raw=true
