@@ -72,9 +72,23 @@ This demonstrates the dataset is well-separated and ideal for classification.
 
 - `Iris_Classification.ipynb` – Jupyter notebook with full code
 - `README.md` – Summary of the task
-- 📸 Screenshots (optional)
+
 
 ---
+
+## 🔮 Live Input Demo
+
+Example prediction using user input:
+
+```text
+Enter flower measurements to predict species:
+
+Sepal length (cm):  3.0
+Sepal width  (cm):  2.5
+Petal length (cm):  1.5
+Petal width  (cm):  2.0
+
+🌼 Predicted species: Setosa
 
 ## 🔗 Connect
 
