@@ -78,7 +78,7 @@ This demonstrates the dataset is well-separated and ideal for classification.
 
 ## 🔗 Connect
 
-Follow me on [LinkedIn](https://linkedin.com) and '@CodSoft` with `#codsoft` in your post.
+Follow me on [LinkedIn](https://linkedin.com) and '@CodSoft' with `#codsoft` in your post.
 
 ---
 
