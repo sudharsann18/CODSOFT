@@ -26,16 +26,27 @@ Predict the quality of red wine using machine learning models like Logistic Regr
 ## 💡 Conclusion
 🍷 Enter wine characteristics below 👇
 Fixed Acidity:  7.4
+
 Volatile Acidity:  0.7
+
 Citric Acid:  0
+
 Residual Sugar:  1.9
+
 Chlorides:  0.076
+
 Free Sulfur Dioxide:  11
+
 Total Sulfur Dioxide:  34
+
 Density:  0.9978
+
 pH:  3.51
+
 Sulphates:  0.56
+
 Alcohol:  9.4
+
 
 🔍 Prediction:
 Wine Quality: 5
