@@ -90,5 +90,8 @@ Petal width  (cm):  2.0
 
 🌼 Predicted species: Setosa
 
+##Author: C.S.Sudharsann
+
+Internship: CodSoft - Data Science Domain
 
 
